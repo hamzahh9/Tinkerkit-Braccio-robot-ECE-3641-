@@ -25,12 +25,12 @@ void drop_dice()
 {
     // moving to cup
 
-Braccio.ServoMovement(30,         90, 153, 100, 145, 90, 73);
-Braccio.ServoMovement(30,         62, 153, 100, 145, 90, 73);
+Braccio.ServoMovement(30,         90, 143, 100, 145, 90, 73);
+Braccio.ServoMovement(30,         57, 143, 100, 145, 90, 73);
 
   // drop in cup
 
-Braccio.ServoMovement(30,         62, 153, 100, 145, 90, 35);
+Braccio.ServoMovement(30,         57, 143, 100, 145, 90, 35);
 
 
 }
@@ -72,6 +72,7 @@ void setup() {
   drop_dice();
 
 
+  
   // open gripper
 
   Braccio.ServoMovement(30,         60, 145, 100, 160, 90, 10);
@@ -80,18 +81,26 @@ void setup() {
 
   Braccio.ServoMovement(30,         60, 125, 180, 70, 90, 10);
 
-  Braccio.ServoMovement(30,         60, 125, 180, 50, 90, 10);
-
+  
+  
+  
+  
   Braccio.ServoMovement(30,         60, 165, 180, 30, 90, 10);
 
-  Braccio.ServoMovement(30,         60, 165, 110, 115, 90, 10);
 
 
-  Braccio.ServoMovement(30,         60, 165, 110, 115, 90, 15);
+  Braccio.ServoMovement(30,         60, 145, 180, 50, 90, 10);
 
-  Braccio.ServoMovement(30,         60, 82.5, 110, 180, 90, 15);
+//grip cup
 
-  Braccio.ServoMovement(30,         60, 30, 50, 80, 90, 15);
+  Braccio.ServoMovement(30,         60, 153 ,155, 70, 90, 10);
+
+  Braccio.ServoMovement(30,         60, 153, 155, 70, 90, 60);
+
+////////////////////////
+
+
+   Braccio.ServoMovement(30,         60, 50, 70, 80, 90, 45);
 
 
 
