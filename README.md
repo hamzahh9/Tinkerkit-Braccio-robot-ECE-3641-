@@ -13,6 +13,6 @@ Robot: https://store.arduino.cc/products/tinkerkit-braccio-robot
 Tasks:
 
 Roll Dice
-Throw paper airplane
-make tea/juice
-Infinite Loop with ball
+, Throw paper airplane
+, make tea/juice
+, Infinite Loop with ball
