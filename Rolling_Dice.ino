@@ -32,7 +32,6 @@ Braccio.ServoMovement(30,         57, 143, 100, 145, 90, 73);
 
 Braccio.ServoMovement(30,         57, 143, 100, 145, 90, 35);
 
-
 }
 
 
@@ -43,9 +42,6 @@ void setup() {
 
  Braccio.begin(SOFT_START_DISABLED); // and set a proper parameter to disable the soft start
 
-// Braccio.begin();
-
-  
   // pointing up 90 degree
 
   Braccio.ServoMovement(30,         90, 96, 94, 100, 90,  73);
@@ -55,8 +51,6 @@ void setup() {
 
   Braccio.ServoMovement(30,         90, 165, 100, 180, 90, 30);
   Braccio.ServoMovement(30,         90, 165, 100, 180, 90, 73);
-
-  
   
   drop_dice();
 
@@ -71,8 +65,6 @@ void setup() {
 
   drop_dice();
 
-
-  
   // open gripper
 
   Braccio.ServoMovement(30,         60, 145, 100, 160, 90, 10);
@@ -81,13 +73,7 @@ void setup() {
 
   Braccio.ServoMovement(30,         60, 125, 180, 70, 90, 10);
 
-  
-  
-  
-  
   Braccio.ServoMovement(30,         60, 165, 180, 30, 90, 10);
-
-
 
   Braccio.ServoMovement(30,         60, 145, 180, 50, 90, 10);
 
@@ -97,18 +83,7 @@ void setup() {
 
   Braccio.ServoMovement(30,         60, 153, 155, 70, 90, 60);
 
-////////////////////////
-
-
-   Braccio.ServoMovement(30,         60, 50, 70, 80, 90, 45);
-
-
-
-
-
-
-
-
+  Braccio.ServoMovement(30,         60, 50, 70, 80, 90, 45);
 
 }
 
